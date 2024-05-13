@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name='func_parallelizer',
-    version='0.3.0',
+    version='0.4.0',
     author='Vikash G',
     author_email='vikashgraja@gmail.com',
     description="Func_Parallelizer is a simple Python module for parallel execution of functions "
