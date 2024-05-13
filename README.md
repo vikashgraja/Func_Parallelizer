@@ -8,7 +8,7 @@ Ideal for parallel execution of heavy cpu operations like processing huge no of 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install func_parallelizer.
 
 ```bash
-pip install func_parallelizer
+pip install func-parallelizer
 ```
 
 ## Usage
@@ -67,7 +67,7 @@ total_mayhem = parallel_runner(tasks, cpu_cores=2)
 ```
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate. [GIT Repo](https://github.com/vikashgraja/Func_Parallelizer)
 
 Feel free to ask any help(If it's about this package, dealing a lot IRL can't help yours too.)
 
