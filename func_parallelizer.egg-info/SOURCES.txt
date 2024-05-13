@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+func_parallelizer/__init__.py
+func_parallelizer/func_parallelizer.py
+func_parallelizer.egg-info/PKG-INFO
+func_parallelizer.egg-info/SOURCES.txt
+func_parallelizer.egg-info/dependency_links.txt
+func_parallelizer.egg-info/not-zip-safe
+func_parallelizer.egg-info/top_level.txt
