@@ -1,8 +1,9 @@
 # func_parallelizer
 
-Func_Parallelizer is a simple Python module for parallel execution of functions using multiprocessing. 
+Func_Parallelizer is a simple Python module for parallel execution of functions using multiprocessing.
 
 Ideal for parallel execution of heavy cpu operations like processing huge no of files in a directory or reading files for pandas.
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install func_parallelizer.
@@ -12,6 +13,7 @@ pip install func-parallelizer
 ```
 
 ## Usage
+
 Import the required packages.
 
 ```python
@@ -61,13 +63,13 @@ tasks = [
 
 Pass the tasks to the parallel_runner function
 
-By default all cores are used but if you have life and want to do some other things, I would recommend to use 50% to 80% of your CPU cores.
+By default all cores are used but if you have a life and want to do some other things, I would recommend to use 50% to 80% of your CPU cores.
 ```python
 total_mayhem = parallel_runner(tasks, cpu_cores=2)
 ```
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate. [GIT Repo](https://github.com/vikashgraja/Func_Parallelizer)
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
 Feel free to ask any help(If it's about this package, dealing a lot IRL can't help yours too.)
 
@@ -77,7 +79,7 @@ Feel free to ask any help(If it's about this package, dealing a lot IRL can't he
 
 ## Code of Conduct
 
-Everyone interacting in the readme_renderer project's codebases, issue trackers,
+Everyone interacting in the func-parallelizer project's codebases, issue trackers,
 chat rooms, and mailing lists is expected to follow the [PSF Code of Conduct](https://github.com/pypa/.github/blob/main/CODE_OF_CONDUCT.md).
 
 Copyright © 2014, [The Python Packaging Authority].
